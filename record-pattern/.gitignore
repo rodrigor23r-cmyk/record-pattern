@@ -1,1 +1,19 @@
-/target/
+# Archivos compilados por Maven
+target/
+*.class
+
+# Configuración exclusiva de Eclipse
+.settings/
+.project
+.classpath
+
+# Configuración exclusiva de VS Code
+.vscode/
+
+# Configuración de IntelliJ (por si acaso)
+.idea/
+*.iml
+
+# Basura del sistema operativo Windows/Mac
+Thumbs.db
+.DS_Store
