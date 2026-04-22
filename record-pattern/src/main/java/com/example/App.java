@@ -33,7 +33,19 @@ public class App {
     			.autor("Ramiro")
     			.build();
     	
+    	Biblioteca objbiblio = Biblioteca.builder()
+    			.nombre("Biblioteca Nacional")
+    			.bestseller(objLibro)
+    			.build();
+    	
+    	
     	imprimeDetalles(objLibro);
+    	
+    	
+    	if (objbiblio instanceof Biblioteca(var nombre, Libro(var titulo, var autor))) {
+    		
+    		System.out.println(nombre + " - " + titulo + " - " + autor);
+    	}
     	
     }
 }
