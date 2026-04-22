@@ -14,10 +14,10 @@ public class App {
 	 */
 	static void imprimeDetalles(Object obj) {
 		
-		// antes de Record Pattern:
-		if (obj instanceof Libro libro) {
-			System.out.println("Título: " + libro.titulo());
-			System.out.println("Autor: " + libro.autor());
+		// con Java 21 con Record Pattern, con destructure:
+		if (obj instanceof Libro(String titulin, String autorcillo)) {
+			System.out.println("Título: " + titulin);
+			System.out.println("Autor: " + autorcillo);
 		}
 	}
 	
